@@ -8,7 +8,7 @@ export function Weather() {
   async function handleOnSubmit(e) {
     try {
       const { data } = await axios.get(
-        `http://api.weatherapi.com/v1/current.json?key=4ef9b0e78350405198c143211232207&q=${city}`
+        `https://api.weatherapi.com/v1/current.json?key=4ef9b0e78350405198c143211232207&q=${city}`
       );
       setData(data);
     } catch (err) {
