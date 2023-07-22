@@ -37,7 +37,7 @@ export function Weather() {
         {data ? (
           <>
             <div>
-              <img src={"https:" + data?.current?.condition?.icon}></img>
+              <img src={"https:" + data?.current?.condition?.icon} alt="Weather"></img>
               <p className={styles.temp}>{data?.current?.temp_c}°C</p>
               <p>{data?.current?.condition?.text}</p>
               <p>
