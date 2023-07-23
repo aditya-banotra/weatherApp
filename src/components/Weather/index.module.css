@@ -58,3 +58,9 @@ button:hover{
     margin-right: 0.5rem;
     cursor: pointer;
 }
+.footerComponent{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
